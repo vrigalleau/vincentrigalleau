@@ -22,12 +22,12 @@ body {
 .header {
   position: sticky;
   top: 0;
-  background: rgba(223,245,223,0.85);
+  background: rgba(246,246,117,0.85);
   backdrop-filter: blur(6px);
   border-bottom: 1px solid var(--border);
   padding: 18px 24px;
 }
-
+<! -- 223,245,223,0.85 -->
 .header-inner {
   max-width: var(--page-width);   /* ✅ was 1100px */
   margin: 0 auto;
