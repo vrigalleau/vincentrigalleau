@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Science Designs — Vincent Rigalleau</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <div class="brand">Vincent Rigalleau, Ph.D.</div>
+
+      <nav class="nav">
+        <a href="index.html">Main</a>
+        <a href="experiences.html">Experiences</a>
+        <a href="expeditions.html">Expeditions</a>
+        <a href="publications.html">Publications</a>
+        <a href="research-interest.html">Research Interest</a>
+        <a class="active" href="science-designs.html">Science Designs</a>
+        <a href="sport.html">Sport</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="card">
+      <h1>Science Designs</h1>
+      <p>
+        Put figures, schematics, instrument designs, posters, data visualizations, etc.
+      </p>
+
+      <h2>Design / Figure Title</h2>
+      <p>Short description: what it shows and why it matters.</p>
+      <!-- <img src="images/design-1.png" alt="Science design"> -->
+
+      <h2>Design / Figure Title</h2>
+      <p>Another one.</p>
+      <!-- <img src="images/design-2.png" alt="Science design"> -->
+    </div>
+  </main>
+</body>
+</html>
