@@ -104,3 +104,11 @@ img {
   border-radius: 12px;
   border: 1px solid var(--border);
 }
+
+.zoom-image img {
+  transition: transform 0.3s ease;
+}
+
+.zoom-image img:hover {
+  transform: scale(1.15);
+}
