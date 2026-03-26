@@ -112,3 +112,25 @@ img {
 .zoom-image img:hover {
   transform: scale(1.2);
 }
+
+.content-block {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.content-block img {
+  width: 350px;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .content-block {
+    flex-direction: column;
+  }
+
+  .content-block img {
+    width: 100%;
+  }
+}
