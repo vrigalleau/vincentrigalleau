@@ -15,9 +15,10 @@
 
 body {
   margin: 0;
-  font-family: "JetBrains Mono", "Courier New", Courier, monospace;
+  font-family: "IBM Plex Mono", "Courier New", Courier, monospace;
   background: var(--bg);
   color: var(--text);
+  line-height: 1.6;
 }
 
 
