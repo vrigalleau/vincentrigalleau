@@ -12,7 +12,9 @@
 * { box-sizing: border-box; }
 
 
-
+header {
+  font-family: "Courier New", Courier, monospace;
+}
 body {
   margin: 0;
   font-family: "JetBrains Mono", monospace;
