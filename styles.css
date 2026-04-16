@@ -37,7 +37,7 @@ body {
   border-bottom: 1px solid var(--border);
   padding: 18px 24px;
 }
-<! -- 223,245,223,0.85 -->
+
 .header-inner {
   max-width: var(--page-width);   /* ✅ was 1100px */
   margin: 0 auto;
