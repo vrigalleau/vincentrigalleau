@@ -11,14 +11,15 @@
 
 * { box-sizing: border-box; }
 
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+
 
 body {
   margin: 0;
-  font-family: "JetBrains Mono", Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   background: var(--bg);
   color: var(--text);
 }
+
 
 
 /* Top bar */
