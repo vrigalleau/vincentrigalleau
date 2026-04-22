@@ -11,7 +11,9 @@
 
 * { box-sizing: border-box; }
 
-
+header {
+  font-family: "Courier New", Courier, monospace;
+}
 
 body {
   margin: 0;
@@ -23,9 +25,6 @@ body {
   letter-spacing: 0.01em;
 }
 
-header {
-  font-family: inherit;
-}
 
 
 /* Top bar */
