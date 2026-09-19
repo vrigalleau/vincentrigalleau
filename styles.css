@@ -100,7 +100,7 @@ body {
 }
 
 img.hero {
-  width: 400px;      /* change this number */
+  width: 600px;      /* change this number */
   max-width: 100%;   /* keeps it responsive */
   display: block;
   margin: 0 auto 16px;  /* centers it + space below */
