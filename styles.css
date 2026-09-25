@@ -1,7 +1,7 @@
 /* styles.css */
  /*  --bg: #f9e79f; 223,244,223-->*/
 :root {
-  --bg: #f9e79f
+  --bg: #f9e79f;
   --text: #0f2a0f;
   --card: rgba(255,255,255,0.6);
   --border: rgba(15,42,15,0.15);
