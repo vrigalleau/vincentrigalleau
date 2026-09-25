@@ -1,9 +1,10 @@
 /* styles.css */
+ /*  --bg: #F9E79F; 223,244,223-->*/
 :root {
-  --bg: #e0d4fc;
-  --text: #2a1a4a;
+  --bg: #dff5df;
+  --text: #0f2a0f;
   --card: rgba(255,255,255,0.6);
-  --border: rgba(74,20,140,0.2);
+  --border: rgba(15,42,15,0.15);
 
   --page-width: 1400px; /* ✅ wider layout */
 }
@@ -24,18 +25,20 @@ body {
   letter-spacing: 0.01em;
 }
 
+
+
 /* Top bar */
 .header {
   position: sticky;
   top: 0;
-  background: rgba(224,212,252,0.85);
+  background: rgba(223,244,223,0.85);
   backdrop-filter: blur(6px);
   border-bottom: 1px solid var(--border);
   padding: 18px 24px;
 }
 
 .header-inner {
-  max-width: var(--page-width);
+  max-width: var(--page-width);   /* ✅ was 1100px */
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -47,7 +50,7 @@ body {
   font-weight: 400;
   font-size: 38px;
   letter-spacing: 0.4px;
-  text-transform: uppercase;
+  text-transform: uppercase; /* keeps the exact style like you wrote */
 }
 
 /* Navigation */
@@ -59,10 +62,11 @@ body {
 }
 
 .nav a {
-  text-decoration: none !important;
+  text-decoration: none !important;   /* ✅ remove underline */
   color: var(--text);
   padding: 7px 10px;
 
+  /* ✅ always show the “nice box” */
   border-radius: 10px;
   border: 1px solid var(--border);
   background: rgba(255, 255, 255, 0.35);
@@ -83,6 +87,58 @@ body {
 
 /* Page content */
 .main {
-  max-width: var(--page-width);
+  max-width: var(--page-width);   /* ✅ was 1100px */
   margin: 28px auto;
   padding: 0 24px 40px;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 18px;
+}
+
+img.hero {
+  width: 400px;      /* change this number */
+  max-width: 100%;   /* keeps it responsive */
+  display: block;
+  margin: 0 auto 16px;  /* centers it + space below */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+}
+
+.zoom-image img {
+  transition: transform 0.3s ease;
+}
+
+.zoom-image img:hover {
+  transform: scale(1.2);
+}
+
+.content-block {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.content-block img {
+  width: 350px;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .content-block {
+    flex-direction: column;
+  }
+
+  .content-block img {
+    width: 100%;
+  }
+}
