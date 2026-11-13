@@ -26,7 +26,7 @@ body {
 
 background-color: var(--bg);
 background-image:
-  linear-gradient(rgba(223,244,223,0.7), rgba(223,244,223,0.7)),
+  linear-gradient(rgba(223,244,223,0.6), rgba(223,244,223,0.6)),
   url("images/isobars.svg");
 background-size: auto, 1200px 1200px;
 background-attachment: fixed;
